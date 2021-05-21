@@ -13,7 +13,7 @@ const ContactPage = () => {
         <description>Contact Page</description>
       </Helmet>
       <PageWrapper>
-        <Box pt={4}>
+        <Box pt={3}>
           <Contact />
         </Box>
       </PageWrapper>

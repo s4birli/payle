@@ -225,8 +225,7 @@ const Footer = ({isDark = true, pathKey}) => {
         mt={["0.5rem", "1rem", "1rem", "2rem"]}
         css={`
           z-index: 0;
-          border-top: 1px solid black;
-          border-bottom: 1px solid black;
+          border-top: ${pathKey !== '/contact/' && "1px solid black"};
         `}
         className="position-relative"
       >

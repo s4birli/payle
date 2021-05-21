@@ -19,7 +19,8 @@ const ContactCard = styled.div`
   }
 `;
 const SocialImg = styled.img`
-  max-width: 40%;
+  max-width: 30%;
+  margin-right: 20px;
 `
 const Contact = ({ hero = true, ...rest }) => {
   return (
@@ -46,26 +47,29 @@ const Contact = ({ hero = true, ...rest }) => {
                     <Span color="primary">hello@payle.co.uk</Span>
                   </a>
                 </div>
-                <div className="mt-5 d-flex flex-column align-items-center">
+                <div className="mt-4 d-flex flex-column align-items-center">
                   <Text>Social Media</Text>
-                  <div className="mt-3 mb-1 d-flex flex-column align-items-center">
+                  <div className="mt-3 mb-1 d-flex flex-row align-items-center">
                     <SocialImg src={imgFacebook} alt="Facebook" className="img-social"/>
+                    <a href="https://www.facebook.com/payledigital" className="font-weight-bold">
+                      <Span color="primary">Facebook - Payle Digital</Span>
+                    </a>
                   </div>
-                  <a href="https://www.facebook.com/payledigital" className="font-weight-bold">
-                    <Span color="primary">Facebook - Payle Digital</Span>
-                  </a>
-                  <div className="mt-4 mb-1 d-flex flex-column align-items-center">
-                  <SocialImg src={imgTwitter} alt="Twitter" className="img-fluid" />
-                </div>
-                  <a href="https://twitter.com/payledigital" className="font-weight-bold">
-                    <Span color="primary">Twitter - @payledigital</Span>
-                  </a>
-                  <div className="mt-4 mb-1 d-flex flex-column align-items-center">
-                  <SocialImg src={imgLinkedin} alt="Linkedin" className="img-fluid" />
-                </div>
-                  <a href="https://linkedin.com/payledigital" className="font-weight-bold">
-                    <Span color="primary">Linkedin - Payle Digital</Span>
-                  </a>
+                  
+                  <div className="mt-4 mb-1 d-flex flex-row align-items-center">
+                    <SocialImg src={imgTwitter} alt="Twitter" className="img-social" />
+                    <a href="https://twitter.com/payledigital" className="font-weight-bold">
+                      <Span color="primary">Twitter - @payledigital</Span>
+                    </a>
+                  </div>
+                 
+                  <div className="mt-4 mb-1 d-flex flex-row align-items-center">
+                    <SocialImg src={imgLinkedin} alt="Linkedin" className="img-social" />
+                    <a href="https://linkedin.com/payledigital" className="font-weight-bold">
+                      <Span color="primary">Linkedin - Payle Digital</Span>
+                    </a>
+                  </div>
+                 
                 </div>
               </ContactCard>
             </Col>
