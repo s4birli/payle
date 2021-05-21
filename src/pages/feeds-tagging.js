@@ -9,7 +9,7 @@ import imgWorkCover from "../assets/image/jpg/details/details-2.jpg";
 import imgS1 from "../assets/image/jpg/details/details-12.jpg";
 import { feedsTaggingData } from "../data";
 
-const Magento = () => {
+const FeedsTagging = () => {
   return (
     <>
       <Helmet>
@@ -67,4 +67,4 @@ const Magento = () => {
     </>
   );
 };
-export default Magento;
+export default FeedsTagging;
