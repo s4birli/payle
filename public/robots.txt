@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://payle.co.uk/sitemap.xml
+Host: https://payle.co.uk
