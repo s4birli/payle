@@ -30,7 +30,12 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-plugin-gatsby-cloud`,
+      options: {
+        // as your choice
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-robots-txt',
